@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 PRACTICE</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">HOME</a>
+                </li>
+                <li>
+                    <a href="home.html">HTML5</a>
+                </li>
+                <li>
+                    <a href="blog.html">CSS3</a>
+                </li>
+                <li>
+                    <a href="news.html">Javascript</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+  <aside>
+
+        <section class="html5-section">
+            <figure class="html5-figure">
+                <img class="html5-img" src="images/html5.png" alt="">
+                <figcaption>
+                    <h2>HTML5</h2>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="info-section">
+            <a href="#meta">Meta</a>
+            <a href="#header">Header</a>
+            <a href="#main">Main</a>
+            <a href="aside">Aside</a>
+            <a href="#footer">Footer</a>
+            <a href="#list">Lists</a>
+            <a href="#table">Table</a>
+            <a href="#form">Form</a>
+            <a href="#video">Video</a>
+            <a href="#other">Other</a>
+        </section>
+        
+    </aside>
+    <main>
+        <section class="main-section">
+            <dl>
+                <dt>
+                    <h2 id="meta">Meta</h2>
+                </dt>
+                <dd>
+                    <img src="images/meta.png" alt="">
+                    <p>This is also for SEO purposes</p>
+                </dd>
+
+                <dt>
+                    <h2 id="header">Header</h2>
+                </dt>
+                <dd>
+                    <img src="images/header.png" alt="">
+                    <p>The &lt;header&gt; HTML element represents introductory content, typically a group of introductory or navigational aids</p>
+                </dd>
+
+                <dt>
+
+                    <h2 id="main">Main</h2>
+                </dt>
+                <dd>
+                    <img src="images/main.png" alt="">
+                    <p>The &lt;main&gt; HTML element represents the dominant content of the
+                    &lt;body&gt; of a document</p>
+                </dd>
+
+                <dt>
+                    <h2 id="aside">Aside</h2>
+                </dt>
+                <dd>
+                    <img src="images/aside.png" alt="">
+                    <p>It gives extra information to main content and also &lt;aside&gt; are frequently presented as sidebars or call-out boxes.</p>
+                </dd>
+
+                <dt>
+                    <h2 id="footer">Footer</h2>
+                </dt>
+                <dd>
+                    <img src="images/footer.png" alt="">
+                    <p>A &lt;footer&gt; typically contains information about the author of the section, copyright data or links to related documents.</p>
+                </dd>
+
+                <dt>
+                    <h2 id="list">List</h2>
+                </dt>
+                <dd>
+                    <section class="list-section">
+                        <ul>
+                            <li>Milk</li>
+                            <li>Cheese</li>
+                            <li>Wafer</li>
+                        </ul>
+
+                        <ol>
+                            <li>Kundol</li>
+                            <li>Patola</li>
+                            <li>Upo</li>
+                        </ol>
+                    </section>
+                    
+                    <p>unordered and ordered list</p>
+                </dd>
+                <dt>
+                    <h2 id="table">Table</h2>
+                </dt>
+                <dd>
+                    <table>
+                        <colgroup span="4"></colgroup>
+                        <tr>
+                            <th>Countries</th>
+                            <th>Capitals</th>
+                            <th>Population</th>
+                            <th>Language</th>
+                        </tr>
+                        <tr>
+                            <td>USA</td>
+                            <td>Washington</td>
+                            <td>309 million</td>
+                            <td>English</td>
+                        </tr>
+                        <tr>
+                            <td>Sweden</td>
+                            <td>Stockholm</td>
+                            <td>9 million</td>
+                            <td>Swedish</td>
+                        </tr>
+                    </table>
+                </dd>
+
+                <dt>
+                    <h2 id="form">Form</h2>
+                </dt>
+                <dd>
+                    <section class="form-section">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="First Name"><br><br>
+                            <input type="text" placeholder="Last Name"><br><br>
+                            <textarea cols="30" rows="5" placeholder="Comment"></textarea><br><br>
+                            <label for="pet-select">Choose a pet:</label><br><br>
+                            <select name="pets" id="pet-select">
+                                <option value="">--Please choose an option--</option>
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="mouse">Mouse</option>
+                            </select><br><br>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </section>
+
+                     <p>check this <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"
+                        target="_blank">developer.mozilla.org</a> for input type and attributes</p>
+                </dd>
+                <dt>
+                    <h2 id="video">Video</h2>
+                </dt>
+                <dd>
+                    <video controls>
+                        <source src="videos/video.mp4" type="video/mp4"><!-- some browser doesnt support other video format thats why we put multiple options -->
+                        <source src="movie.ogg" type="video/ogg"> 
+                        <source src="movie.webm" type="video/webm"> 
+                    </video>
+
+                    <iframe src="videos/video.mp4" title="Iframe Example"></iframe> 
+                    <p>You can use video or iframe tag on displaying video </p>
+                </dd>
+                <dt>
+                    <h2 id="other">Other</h2>
+                </dt>
+                <dd>
+                    &lt;code&gt; 
+                    &lt;em&gt; 
+                    &lt;strong&gt; 
+                    &lt;mark&gt; 
+                </dd>
+            </dl>
+        </section>
+    </main>
+
+
+    <footer>
+        <h4>@Jayrah Etracih</h4>
+        <div class="back-to-top">
+            <a href="#meta">&#8593;</a>    
+        </div>
+    </footer>
+
+</body>
+</html>
