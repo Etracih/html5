@@ -1,0 +1,176 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/**************************** Header ****************************/
+
+nav {
+    background-color: #406882;
+    margin: 0;
+}
+
+nav ul {
+    margin: 0 90px;
+    padding: 0;
+    padding: 16px;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+   
+}
+
+nav a:hover {
+    border: 1px dashed white;   
+}
+
+
+/**************************** Main ****************************/
+
+main {
+    margin: 30px 0;
+}
+.main-section {
+    padding: 30px;
+    margin-left: 90px;
+}
+
+dl dd  p {
+    margin-bottom: 30px;
+}
+
+ul , ol {
+    display: inline-block;
+}
+
+.list-section {
+    border: 1px solid gray;
+    background-color: #B1D0E0;
+    display: inline-block;
+    padding: 30px 50px 30px 30px;
+}
+
+table, th, td {
+  border:1px solid whitesmoke;
+  border-collapse: collapse;
+}
+th {
+    padding: 15px;
+    background-color: #1A374D;
+    color: whitesmoke;
+}
+td {
+  padding: 15px;
+  background-color: #1e1e1e;
+  color: whitesmoke;
+}
+
+.form-section {
+    background-color: #1A374D;
+    border: 1px solid;
+    border-color: rgb(39, 39, 39);
+    display: inline-block;
+    padding: 50px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.form-section input , textarea ,select {
+    padding: 10px;
+}
+
+video , iframe {
+    display: inline-block;
+    height: 250px;
+    width: 300px;
+    border: 1px solid gray;
+}
+
+iframe {
+    margin-left: 30px;
+}
+
+main img , table , .form-section , .list-section{
+    box-shadow: 5px 10px 10px #888888;
+}
+
+/**************************** Aside ****************************/
+
+aside {
+    background-color: #1A374D;
+    float: right;
+    height: 100vh;
+    padding:  20px 20px;
+    text-align: center;
+    width: 15%;  
+}
+
+aside a {   
+    border: 1px;
+    border-style: dashed none none none;
+    color: whitesmoke;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.info-section:last-child {
+    border: 1px;
+    border-style: none none dashed none;
+    color: whitesmoke;
+}
+
+aside a:hover{
+    border: 1px dashed white;     
+    border-style: dashed dashed none dashed;    
+}
+
+.html5-figure {
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: thistle;
+    color: whitesmoke;
+    height: 200px;
+    margin: 20px auto 90px;
+    width: 200px;
+}
+
+
+figcaption {
+    margin-top: 30px;
+}
+
+.html5-img {
+    margin-top: 35px;
+    width: 150px;  
+}
+
+/**************************** Footer ****************************/
+
+footer {
+    height: 100px;
+    background-color: #B1D0E0;
+    margin: 0;
+    text-align: center;
+}
+footer > h4 {
+    margin: 40px auto;
+    display: inline-block;
+}
+.back-to-top {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    float: right;
+    font-size: 40px;
+}
+.back-to-top a {
+    text-decoration: none;
+    color: whitesmoke;
+}
