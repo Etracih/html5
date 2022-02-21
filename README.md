@@ -19,7 +19,7 @@ This project is for practicing HTML5, how to use HTML5 tags and add basic css st
 
 ### Screenshot
 
-![](https://github.com/Etracih/html5/blob/main/images/screenshot.jpg?raw=true)
+![](https://github.com/Etracih/html5/blob/main/images/screenshot.png?raw=true)
 
 ### Links
 
