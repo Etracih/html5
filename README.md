@@ -35,17 +35,19 @@ This project is for practicing HTML5, how to use HTML5 tags and add basic css st
 
 ### What I learned
 
-On this project, i've learned how to use Semantic HTML5 markup such as :
+- On this project, i've learned how to use Semantic HTML5 markup such as :
 
-- Meta
-- Header
-- Main
-- Aside
-- Footer
-- Lists
-- Table
-- Form
-- Video
+  - Meta
+  - Header
+  - Main
+  - Aside
+  - Footer
+  - Lists
+  - Table
+  - Form
+  - Video
+
+- Deploying website Using Netlify/Github
 
 ### Continued development
 
@@ -54,6 +56,8 @@ In this project i dont know how to make the site responsive this would be my nex
 ### Useful resources
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - This helped me how to use html5 properly.
+
+- [freecodecamp](https://www.freecodecamp.org/news/publish-your-website-netlify-github/) - How to Publish an HTML Website on Netlify or GitHub Pages.
 
 ## Author
 
