@@ -10,6 +10,7 @@
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
@@ -45,6 +46,10 @@ On this project, i've learned how to use Semantic HTML5 markup such as :
 - Table
 - Form
 - Video
+
+### Continued development
+
+In this project i dont know how to make the site responsive this would be my next target for my new project. learning new techniques on css.
 
 ### Useful resources
 
