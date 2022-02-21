@@ -47,7 +47,7 @@ This project is for practicing HTML5, how to use HTML5 tags and add basic css st
   - Form
   - Video
 
-- Deploying website Using Netlify/Github
+- How to Publish a Static Website on Netlify / GitHub Pages
 
 ### Continued development
 
